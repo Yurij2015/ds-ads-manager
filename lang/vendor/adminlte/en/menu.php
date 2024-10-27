@@ -16,4 +16,6 @@ return [
     'important' => 'Important',
     'warning' => 'Warning',
     'information' => 'Information',
+    'ad_campaigns' => 'AD CAMPAIGNS',
+    'campaigns' => 'Campaigns',
 ];

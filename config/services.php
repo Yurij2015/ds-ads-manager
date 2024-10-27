@@ -35,4 +35,14 @@ return [
         ],
     ],
 
+    'facebook' =>[
+        'fb_marketing_token' => env('FACEBOOK_MARKETING_API_TOKEN'),
+        'fb_api_base_url' => env('FACEBOOK_API_BASE_URL'),
+        'fb_ad_account_id' => env('FACEBOOK_AD_ACCOUNT_ID'),
+    ],
+
+    'gemini' =>[
+        'gemini_api_base_url' => env('GEMINI_API_BASE_URL'),
+        'gemini_api_key' => env('GEMINI_API_KEY'),
+    ],
 ];
