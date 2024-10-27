@@ -63,7 +63,7 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
+    'logo' => '<b>Ads</b>Manager',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -110,7 +110,7 @@ return [
     */
 
     'preloader' => [
-        'enabled' => true,
+        'enabled' => false,
         'mode' => 'fullscreen',
         'img' => [
             'path' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
@@ -376,21 +376,55 @@ return [
                 ],
             ],
         ],
-        ['header' => 'labels'],
+        ['header' => 'CONTENT GENERATOR'],
         [
-            'text' => 'important',
+            'text' => 'Promts',
             'icon_color' => 'red',
-            'url' => '#',
+            'icon' => 'fas fa-fw fa-terminal',
+            'url' => 'gm-promts',
         ],
         [
-            'text' => 'warning',
+            'text' => 'Content',
             'icon_color' => 'yellow',
+            'icon' => 'fas fa-fw fa-keyboard',
             'url' => '#',
         ],
         [
-            'text' => 'information',
+            'text' => 'Ads Analitycs',
             'icon_color' => 'cyan',
+            'icon' => 'fas fa-fw fa-chart-line',
             'url' => '#',
+        ],
+        ['header' => 'ad_campaigns'],
+        [
+            'text' => 'campaigns',
+            'icon_color' => 'lime',
+            'icon' => 'fas fa-fw fa-tasks',
+            'url' => 'fb-campaigns',
+        ],
+        [
+            'text' => 'Audience',
+            'icon_color' => 'blue',
+            'icon' => 'fas fa-fw fa-list',
+            'url' => 'fb-audience',
+        ],
+        [
+            'text' => 'Ad Sets',
+            'icon_color' => 'yellow',
+            'icon' => 'fas fa-fw fa-stream',
+            'url' => 'fb-ad-sets',
+        ],
+        [
+            'text' => 'Ad',
+            'icon_color' => 'green',
+            'icon' => 'fas fa-fw fa-ad',
+            'url' => 'fb-ads',
+        ],
+        [
+            'text' => 'Ad Creatives',
+            'icon_color' => 'pink',
+            'icon' => 'fas fa-fw fa-photo-video',
+            'url' => 'fb-ad-creatives',
         ],
     ],
 
